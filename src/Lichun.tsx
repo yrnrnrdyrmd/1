@@ -190,7 +190,6 @@ export const Lichun = () => {
             </mask>
           </defs>
 
-          {/* User provided images. These need to be uploaded to the public directory. */}
           <image href={branchesImg} width="600" height="600" />
           <image href={iceImg} width="600" height="600" mask="url(#iceMask)" className="transition-opacity duration-1000" />
           <image href={blossomsImg} width="600" height="600" mask="url(#blossomMask)" className="transition-opacity duration-1000" />
